@@ -15,7 +15,7 @@ public class Home_test extends Base_liebrary {
 	public void Home_broswer()
 	{
 		
-		booking();
+		Baba();
 		ob = new Home_page();
 		
 		
@@ -26,7 +26,7 @@ public class Home_test extends Base_liebrary {
 	public void Home_new() throws InterruptedException
 	{
 		
-		ob.booking_flith();
+    ob.testing_baba();
 	
 	
 }
