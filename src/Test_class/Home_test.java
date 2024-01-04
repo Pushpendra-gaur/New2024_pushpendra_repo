@@ -8,26 +8,21 @@ import Page_class.Home_page;
 
 public class Home_test extends Base_liebrary {
 
-	
-	Home_page ob ;
-	
+	Home_page ob;
+
 	@BeforeTest
-	public void Home_broswer()
-	{
-		
+	public void Home_broswer() {
+
 		Baba();
 		ob = new Home_page();
-		
-		
+
 	}
-	
+
 	@Test(priority = 1)
-	
-	public void Home_new() throws InterruptedException
-	{
-		
-    ob.testing_baba();
-	
-	
-}
+
+	public void Home_new() throws InterruptedException {
+
+		ob.testing_baba();
+
+	}
 }
