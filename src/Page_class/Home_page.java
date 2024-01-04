@@ -16,11 +16,17 @@ public class Home_page extends Base_liebrary {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void booking_flith() throws InterruptedException
+	
+	
+	@FindBy(xpath = "//button[text()='×']")
+	private WebElement cross_icon;
+	
+	
+	public void testing_baba() throws InterruptedException
 	{
 	
 		
-		
+		cross_icon.click();
 		
 		
 	}
